@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro clock</title>
+</head>
+<body>
+    <h1><strong>Pomodoro timer</strong></h1>
+    <footer>
+        <span class="top">
+            <h2>Session</h2><h2>Break</h2>
+            <section class="section" >
+                <p id="pointdown1"class="click">↓</p>
+                <p id="session-time"></p>
+                <p class="click" id="pointup1">↑</p>
+            </section>
+            <section class="section" >
+                <p id="pointdown2"class="click">↓</p>
+                <p id="break-time"></p>
+                <p class="click" id="pointup2">↑</p></section>
+        </span>
+        <span class="bottom">
+            <div class="top-div">
+                <p id="play" class="click">►</p>
+                <p id="refresh" class="click">⟳</p>
+            </div>
+            <div class="div-session">
+                <h3>Session</h3>
+            </div>
+            <div class="div-timer">
+                <h4 id="main-timer"></h4>
+            </div>
+            <div class="bot-div">
+                <h5 id="pause" class="click">❚❚ </h5>
+                <h6 id="stop" class="click">▍▍ </h6>
+            </div>  
+        </span> 
+    </footer>
+</body>
+<script src="app.js"></script>
+</html>
